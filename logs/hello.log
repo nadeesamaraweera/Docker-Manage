@@ -1,0 +1,75 @@
+2025-02-27T11:19:22.259+05:30  INFO 16355 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 17.0.8 with PID 16355 (/home/durangi/ThridSem/Log-Management/target/classes started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T11:19:22.261+05:30  INFO 16355 --- [Log-Management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T11:19:22.825+05:30  INFO 16355 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-27T11:19:22.833+05:30  INFO 16355 --- [Log-Management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-27T11:19:22.833+05:30  INFO 16355 --- [Log-Management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27T11:19:22.853+05:30  INFO 16355 --- [Log-Management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-27T11:19:22.854+05:30  INFO 16355 --- [Log-Management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 552 ms
+2025-02-27T11:19:23.128+05:30  INFO 16355 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-27T11:19:23.139+05:30  INFO 16355 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.245 seconds (process running for 1.661)
+2025-02-27T11:19:39.127+05:30  INFO 16355 --- [Log-Management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27T11:19:39.131+05:30  INFO 16355 --- [Log-Management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-27T11:26:53.437+05:30  INFO 16567 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 17.0.8 with PID 16567 (/home/durangi/ThridSem/Log-Management/target/classes started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T11:26:53.439+05:30  INFO 16567 --- [Log-Management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T11:26:54.054+05:30  INFO 16567 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-27T11:26:54.062+05:30  INFO 16567 --- [Log-Management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-27T11:26:54.062+05:30  INFO 16567 --- [Log-Management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27T11:26:54.083+05:30  INFO 16567 --- [Log-Management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-27T11:26:54.083+05:30  INFO 16567 --- [Log-Management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 597 ms
+2025-02-27T11:26:54.305+05:30  INFO 16567 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-27T11:26:54.312+05:30  INFO 16567 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.246 seconds (process running for 1.647)
+2025-02-27T11:27:32.938+05:30  INFO 16567 --- [Log-Management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-27T11:27:32.938+05:30  INFO 16567 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-27T11:27:32.939+05:30  INFO 16567 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-27T11:28:51.879+05:30  INFO 16567 --- [Log-Management] [http-nio-8080-exec-5] l.i.l.controller.LogController           : This is a INFO log message
+2025-02-27T11:28:51.880+05:30  WARN 16567 --- [Log-Management] [http-nio-8080-exec-5] l.i.l.controller.LogController           : This is a WARN log message
+2025-02-27T11:28:51.880+05:30 ERROR 16567 --- [Log-Management] [http-nio-8080-exec-5] l.i.l.controller.LogController           : This is a ERROR message
+2025-02-27T11:29:30.519+05:30  INFO 16567 --- [Log-Management] [http-nio-8080-exec-7] l.i.l.controller.LogController           : This is a INFO log message
+2025-02-27T11:29:30.519+05:30  WARN 16567 --- [Log-Management] [http-nio-8080-exec-7] l.i.l.controller.LogController           : This is a WARN log message
+2025-02-27T11:29:30.519+05:30 ERROR 16567 --- [Log-Management] [http-nio-8080-exec-7] l.i.l.controller.LogController           : This is a ERROR message
+2025-02-27T11:29:39.243+05:30  INFO 16567 --- [Log-Management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27T11:29:39.246+05:30  INFO 16567 --- [Log-Management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-27T11:31:40.473+05:30  INFO 16723 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 17.0.8 with PID 16723 (/home/durangi/ThridSem/Log-Management/target/classes started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T11:31:40.476+05:30  INFO 16723 --- [Log-Management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T11:31:41.041+05:30  INFO 16723 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-27T11:31:41.048+05:30  INFO 16723 --- [Log-Management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-27T11:31:41.049+05:30  INFO 16723 --- [Log-Management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27T11:31:41.068+05:30  INFO 16723 --- [Log-Management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-27T11:31:41.069+05:30  INFO 16723 --- [Log-Management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+2025-02-27T11:31:41.304+05:30  INFO 16723 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-27T11:31:41.311+05:30  INFO 16723 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.275 seconds (process running for 1.716)
+2025-02-27T11:31:47.483+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-27T11:31:47.484+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-27T11:31:47.484+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-27T11:31:47.501+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a INFO log message
+2025-02-27T11:31:47.502+05:30  WARN 16723 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a WARN log message
+2025-02-27T11:31:47.502+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a ERROR message
+2025-02-27T11:31:47.502+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is error: Hello i'm an Exception
+2025-02-27T11:31:48.924+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a INFO log message
+2025-02-27T11:31:48.924+05:30  WARN 16723 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a WARN log message
+2025-02-27T11:31:48.924+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a ERROR message
+2025-02-27T11:31:48.924+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is error: Hello i'm an Exception
+2025-02-27T11:31:57.800+05:30  INFO 16723 --- [Log-Management] [http-nio-8080-exec-4] l.i.l.controller.LogController           : This is a INFO log message
+2025-02-27T11:31:57.801+05:30  WARN 16723 --- [Log-Management] [http-nio-8080-exec-4] l.i.l.controller.LogController           : This is a WARN log message
+2025-02-27T11:31:57.801+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-4] l.i.l.controller.LogController           : This is a ERROR message
+2025-02-27T11:31:57.801+05:30 ERROR 16723 --- [Log-Management] [http-nio-8080-exec-4] l.i.l.controller.LogController           : This is error: Hello i'm an Exception
+2025-02-27T11:32:02.557+05:30  INFO 16723 --- [Log-Management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27T11:32:02.559+05:30  INFO 16723 --- [Log-Management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-27T12:39:11.878+05:30  INFO 19383 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.8 with PID 19383 (started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T12:39:11.880+05:30  INFO 19383 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T12:39:12.929+05:30  INFO 19383 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.438 seconds (process running for 2.259)
+2025-02-27T12:40:07.367+05:30  INFO 19519 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.8 with PID 19519 (started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T12:40:07.369+05:30  INFO 19519 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T12:40:08.483+05:30  INFO 19519 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.471 seconds (process running for 2.257)
+2025-02-27T12:53:26.172+05:30  INFO 19842 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.8 with PID 19842 (started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T12:53:26.175+05:30  INFO 19842 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T12:53:27.187+05:30  INFO 19842 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.412 seconds (process running for 2.171)
+2025-02-27T12:55:12.208+05:30  INFO 20005 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.8 with PID 20005 (started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T12:55:12.210+05:30  INFO 20005 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T12:55:13.199+05:30  INFO 20005 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.295 seconds (process running for 2.05)
+2025-02-27T13:40:01.775+05:30  INFO 23703 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.8 with PID 23703 (started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-02-27T13:40:01.776+05:30  INFO 23703 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T13:40:02.609+05:30  INFO 23703 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.109 seconds (process running for 1.859)
+2025-03-06T08:27:06.727+05:30  INFO 15156 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 17.0.12 with PID 15156 (started by ASUS in C:\Users\ASUS\Documents\GDSE68\Log-Management\Log-Management)
+2025-03-06T08:27:06.729+05:30  INFO 15156 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T08:27:08.571+05:30  INFO 15156 --- [Log-Management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 2.237 seconds (process running for 3.533)
